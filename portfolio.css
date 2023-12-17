@@ -1,0 +1,446 @@
+@font-face{
+	font-family: myfont;
+	src: url(tultol.ttf) format('truetype');
+}
+@font-face{
+	font-family: font1;
+	src: url(comic.ttf) format('truetype');
+}
+@font-face{
+	font-family: font2;
+	src: url(SansR.ttf) format('truetype');
+}
+@font-face{
+	font-family: font3;
+	src: url(heading.ttf) format('truetype');
+}
+@font-face{
+	font-family: font4;
+	src: url(bebas.ttf) format('truetype');
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica, sans serif;
+	box-sizing: border box;
+}
+.hero{
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('IMG_4840.jpeg');
+	height: 100vh;
+	width: 100%;
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;	
+	background-attachment: scroll;
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top:45px;
+	padding-left: 8%;
+	padding-right: 8%;
+
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	align-items: center;
+	
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: font2;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #49a5db;
+	transition: .4s;
+}
+.content{
+	position: absolute;
+	top: 38%;
+	right: 8%;
+	transform: translateY(-50%);
+}
+h1{
+	font-family: myfont;
+	color: #d9ecf7;
+	margin: 20px 0px 20px;
+	font-size: 60px;
+}
+h3{
+	font-family: font3;
+	color: #d9ecf7;
+	font-size: 20px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+}
+span{
+	font-family: myfont;
+	color: #00F0ED;
+	margin: 20px 0px 20px;
+	font-size: 60px;
+
+}
+.btn{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: 2px solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	
+}
+.btn:hover{
+	background-color: #00F0ED;
+	transform: scale(1.3);
+	opacity: 1;
+}
+
+.HOME{
+	background: #000000;
+	width: 100%;
+	padding: 100px 0px;
+}
+.main h2{
+	background-color: black;
+	color: white;
+	font-size: 50px;
+	width: 1000px;
+	position: 10%;
+	margin: 10px auto;
+	text-align: center;
+	padding: 0px;
+}
+.box{
+	height: 70vh;
+	width: 100%;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+	
+}
+.card{
+	height: 300px;
+	width: 300px;
+	padding: 20px 35px;
+	background: #141414;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card:hover{
+	background-color: #9C9C9C;
+	transform: scale(1.1);
+	opacity: 1;
+	
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #ffffff;
+}
+.card a{
+	font-family: myfont;
+	font-size: 30px;
+	background: linear-gradient(to right, #00D5CB, #00EBFF);
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+p{
+	color: white;
+	text-decoration: none;
+	font-family: font4;
+	font-weight: regular;
+	font-size: 22px;
+}
+.bttn:hover{
+	background-color: #00FFE8;
+	transform: scale(1.3);
+	opacity: 1;
+	cursor: pointer;
+}
+.music{
+	background-color: black;
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('music.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+
+}
+.music h5{
+	font-family: myfont;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px;
+	justify-content: space-between;
+}
+.music p{
+	font-family: font3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-weight: light;
+	margin: 3px;
+	margin-top: 2px;
+	color: #ffffff;
+	padding: 5px;
+	justify-content: space-between;
+}
+.music a{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;	
+	text-align: center;
+	display: block;
+}
+.sptfy:hover{
+	background-color: #00F0ED;
+	transform: scale(1.3);
+	opacity: 1;
+}
+.code{
+	background-color: black;
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('prog.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+
+}
+.code h5{
+	font-family: myfont;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px;
+	justify-content: space-between;
+}
+.code p{
+	font-family: font3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-weight: light;
+	margin: 3px;
+	margin-top: 2px;
+	color: #ffffff;
+	padding: 5px;
+	justify-content: space-between;
+}
+.code a{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;	
+	text-align: center;
+	display: block;
+}
+.games{
+	background-color: black;
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('games.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+}
+.games h5{
+	font-family: myfont;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px;
+	justify-content: space-between;
+}
+.games p{
+	font-family: font3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-weight: light;
+	margin: 3px;
+	margin-top: 2px;
+	color: #ffffff;
+	padding: 5px;
+	justify-content: space-between;
+}
+.games a{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;	
+	text-align: center;
+	display: block;
+}
+.vb{
+	background-color: black;
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('vb.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+}
+.vb h5{
+	font-family: myfont;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px;
+	justify-content: space-between;
+}
+.vb p{
+	font-family: font3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-weight: light;
+	margin: 3px;
+	margin-top: 2px;
+	color: #ffffff;
+	padding: 5px;
+	justify-content: space-between;
+}
+.vb a{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;	
+	text-align: center;
+	display: block;
+}
+.sm{
+	background-color: black;
+	background-image: linear-gradient(270deg, rgba(0,0,0,1) 7%, rgba(0,22,27,0.4767156862745098) 73%), url('sm.jpeg');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.sm h5{
+	font-family: myfont;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px;
+	justify-content: space-between;
+}
+.sm p{
+	font-family: font3;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	text-weight: light;
+	margin: 3px;
+	margin-top: 2px;
+	color: #ffffff;
+	padding: 5px;
+	justify-content: space-between;
+}
+.sm a{
+	background-color: black;
+	opacity: .8;
+	color: white;
+	font-family: font3;
+	border: solid transparent;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;	
+	text-align: center;
+	display: block;
+}
+.box2{
+	height: 5h;
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	
+}
+.card2{
+	height: 200x;
+	width: 200px;
+	padding: 20px 35px;
+	background: transparent;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card2 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #ffffff;
+}
+.card2 a{
+	font-family: myfont;
+	font-size: 15x;
+	background: #FFFFFF;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+}
+.card2 p{
+	font-family: myfont;
+	font-size: 10px;
+	background: #FFFFFF;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
